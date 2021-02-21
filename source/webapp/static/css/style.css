@@ -1,0 +1,166 @@
+body {
+    font-family: 'Istok Web', sans-serif;
+    color: #4b3f55;
+}
+
+.header {
+    background-color: #775ba3;
+}
+
+.nav-link {
+    font-size: 14px;
+}
+
+.btn-user {
+    color: white;
+    background: transparent;
+    border: none;
+    font-size: 22px;
+}
+
+.modal-header {
+    background-color: #775ba3;
+}
+
+.modal-footer {
+    background-color: #91c5a9;
+}
+
+.carousel-indicators li {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: transparent;
+    border: 2px solid white;
+    opacity: 1;
+}
+
+.carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+    background: white;
+    margin-top: 2px;
+}
+
+.card {
+    border: none;
+}
+
+.card-title {
+    color: #775ba3;
+    font-size: 40px;
+}
+
+.main-text {
+    color: #4b3f55;
+    font-size: 23px;
+}
+
+hr {
+    border-top: 1px solid #91c5a9;
+}
+
+.icon-1 {
+    font-size: 64px;
+}
+
+.icon-gaika {
+    border: 2px solid black;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    line-height: 120px;
+    text-align: center;
+}
+
+.icon-text {
+    color: #4b3f55;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.card-byod {
+    text-align: center;
+}
+
+.card-photo img {
+    display: block;
+    border-radius: 0;
+}
+
+.photo-title {
+    color: #91c5a9;
+    font-size: 15px;
+}
+
+.photo {
+    border: 1.5px solid #91c5a9;
+    background-color: #91c5a9;
+    margin-top: -0.4px;
+}
+
+.photo-text {
+    font-size: 0;
+}
+
+.card-text {
+    font-size: 13px;
+    color: #4b3f55;
+}
+
+.photo-name {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo-name p {
+    color: #91c5a9;
+    font-size: 12px;
+    padding-top: 0.9px;
+}
+
+.btn {
+    border: none;
+    border-radius: 0;
+}
+
+.row {
+    justify-content: space-around;
+}
+
+.card {
+    justify-content: space-between;
+}
+
+.card-footer {
+    font-size: 0%;
+}
+
+.card-photo {
+    padding-bottom: 0%;
+    font-size: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.button2 a {
+    background-color: rgb(252, 93, 119);
+}
+
+.button3 a {
+    background-color: #1DA1F2;
+}
+
+footer {
+    background-color: #54865d;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.footer-text {
+    display: flex;
+}
+

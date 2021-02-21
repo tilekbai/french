@@ -1,0 +1,253 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width, user-scalable=no, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Kukushka</title>
+<link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/v5.11.1/css/free.min.css" media="all">
+<link href="https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand mr-5" href="#"><img src="../static/images/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav text-uppercase font-weight-bold mt-2">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Show</a>
+            </li>
+          </ul>
+          <hr class="border-white">
+          <button type="button " class="ml-auto btn-user" data-toggle="modal" data-target="#exampleModal"><i class="far fa-user"></i>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="mb-5">
+    <div id="main-carousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#main-carousel" data-slide-to="1"></li>
+        <li data-target="#main-carousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../static/images/slide-1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../static/images/slide-2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../static/images/slide-3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#main-carousel" role="button" data-slide="prev">
+      </a>
+      <a class="carousel-control-next" href="#main-carousel" role="button" data-slide="next">
+      </a>
+    </div>
+  </div>
+  <div class="container">
+    <div class="main-text">
+      <div class="card text-center">
+        <div class="card-body  mt-5">
+          <h1 class="card-title mb-4 font-weight-bold">La Liberté guidant le peuple</h1>
+          <p class="main-text font-weight-bold">La Liberté guidant le peuple est une huile sur toile d'Eugène Delacroix
+            réalisée en 1830, inspirée de la révolution des Trois Glorieuses qui s'est passée en 1830. Présentée au
+            public au Salon de Paris de 1831 sous le titre Scènes de barricades
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="container">
+    <div class="card text-center">
+      <div class="card-body">
+        <h1 class="card-title mt-5 mb-5 font-weight-bold">Postérité de l'œuvre</h1>
+      </div>
+    </div>
+    <div class="row mb-5">
+      <div class="col-lg-4 col-sm-6 mb-2">
+        <div class="card" style="width: 100%;">
+          <div class="icon-gaika m-auto ">
+            <p class="icon-1"><i class="fas fa-cog"></i></p>
+          </div>
+          <div class="card-byod mt-5">
+            <p class="icon-text mt-4">Lorem ipsum, dolor sit amet conur adipicing elit. Repudim fugiat cupid soluta,
+              beatae nesciunt lab temporibus itaque? Maxi!</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-2">
+        <div class="card" style="width: 100%;">
+          <div class="icon-gaika m-auto ">
+            <p class="icon-1"><i class="fas fa-eye"></i></p>
+          </div>
+          <div class="card-byod mt-5">
+            <p class="icon-text mt-4">Lorem ipsum, dolor sit amet conur adipicing elit. Repudim fugiat cupid soluta,
+              beatae nesciunt lab temporibus itaque? Maxi!</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-2">
+        <div class="card" style="width: 100%;">
+          <div class="icon-gaika m-auto ">
+            <p class="icon-1"><i class="fas fa-sync-alt"></i></p>
+          </div>
+          <div class="card-byod mt-5">
+            <p class="icon-text mt-4">Lorem ipsum, dolor sit amet conur adipicing elit. Repudim fugiat cupid soluta,
+              beatae nesciunt lab temporibus itaque? Maxi!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="container">
+    <div class="card text-center">
+      <div class="card-body  mt-5">
+        <h1 class="card-title mb-4 font-weight-bold">Notre Equipe</h1>
+      </div>
+    </div>
+    <div class="row mb-5">
+      <div class="card-deck"></div>
+      <div class="card col-lg-4 col-sm-6">
+        <div class="card-up">
+          <img src="../static/images/photo-1.jpg" class="card-img-top" alt="Garner">
+          <hr class="photo">
+          <div class="photo-name">
+            <h5 class="photo-title text-uppercase font-weight-bold ml-1">Craig Garner</h5>
+            <p class="text-uppercase font-weight-bold ml-2 mb-0 mt-0">CEO</p>
+          </div>
+          <hr class="photo">
+          <div class="photo-text">
+            <p class="card-text">Lorem ipsum dolor sit, amet cons ectet urun adipi sicing elit. Duc imus, porro pariatur
+            </p>
+          </div>
+        </div>
+        <div class="card-footer p-0 pt-4 bg-white border-0">
+          <a href="#" class="btn btn-lg btn-primary w-50"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="btn btn-lg btn-primary w-50 bg-danger"><i class="fab fa-google-plus-g"></i></i></a>
+        </div>
+      </div>
+      <div class="card col-lg-4 col-sm-6">
+        <div class="card-up">
+          <img src="../static/images/photo-2.jpg" class="card-img-top" alt="Genius">
+          <hr class="photo">
+          <div class="photo-name">
+            <h5 class="photo-title text-uppercase font-weight-bold ml-1">Bridge Roberts</h5>
+            <p class="text-uppercase font-weight-bold ml-2 mb-0 mt-0">Creative Genius</p>
+          </div>
+          <hr class="photo">
+          <div class="photo-text">
+            <p class="card-text">Lorem ipsum dolor sit, amet cons ectet Lorem ipsum dolor sit amet. Lorem ipsum dolor
+              sit amet consectetur adipisicing elit. Error. Murun adipi sicing elit. Duc imus!</p>
+          </div>
+        </div>
+        <div class="button2">
+          <div class="card-footer p-0 pt-4 bg-white border-0">
+            <a href="#" class="btn btn-lg btn-primary bg-primary w-50"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="btn btn-lg btn-danger w-50"><i class="fas fa-basketball-ball"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="card col-lg-4 col-sm-6">
+        <div class="card-up">
+          <img src="../static/images/photo-3.jpg" class="card-img-top w-100" alt="Chef Projet">
+          <hr class="photo">
+          <div class="photo-name">
+            <h5 class="photo-title text-uppercase font-weight-bold ml-1">Malade Garner</h5>
+            <p class="text-uppercase font-weight-bold ml-2 mb-0 mt-0">Chef de Projet</p>
+          </div>
+          <hr class="photo">
+          <div class="photo-text">
+            <p class="card-text">Lorem ipsum dolor sit, amet cons ectet urun adipi sicing elit. Duc imus, porro pariatur
+            </p>
+          </div>
+        </div>
+        <div class="button3">
+          <div class="card-footer p-0 pt-4 bg-white border-0">
+            <a href="#" class="btn btn-lg btn-primary w-50"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="btn btn-lg btn-secondary w-50 bg-danger"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <footer class="footer  mt-5">
+    <div class="container">
+      <div class="footer-text">
+        <span class="footer-text mt-4 mb-4">Copyright © All Rights Reserved. Bridgetech-ma.com.com -
+          Goh.h.com@gmail.com</span>
+      </div>
+    </div>
+  </footer>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-white" id="exampleModalLabel">Identification</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Enter</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+  </div>
+</div>
+  <script src="{% static 'js/jquery-3.5.1.slim.min.js' %}">
+  </script>
+  <script src="{% static 'js/popper.min.js' %}"></script>
+  <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+
+</body>
+</html>
